@@ -2,7 +2,7 @@
     scroll-behavior: smooth;
 }
 :root{
-    background-image: url(/img/ps.gif)  ;
+    background-image: url(/views/ps.gif)  ;
     border: 5px solid #555;
     background-size: cover;
 }
