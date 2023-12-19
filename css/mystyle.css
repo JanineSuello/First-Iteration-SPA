@@ -1,10 +1,46 @@
+*{
+    scroll-behavior: smooth;
+}
+:root{
+    background-image: url(/views/ps.gif)  ;
+    border: 5px solid #555;
+    background-size: cover;
+}
+.img{
+    width: 380px;
+    height: 500px;
+    margin-left: 750px;
+}
+.pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    margin-right: 10px; 
+}
+.res {
+    width: 800px;
+    height: auto;
+}
+.con {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.nayn-sec{
+    align-items: center;
+}
 .nayn-h1{
     color: salmon;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 100px;
 }
 .nayn-h1{
     color: salmon;
+    text-align: center;
+}
+.nayn-h{
+    color: mediumspringgreen;
     text-align: center;
 }
 .nayn-ul{
@@ -14,6 +50,42 @@
 .nayn-h2{
     color: darkorange;
 }
-.nayn-body {
-    background-image: url("http://wifflegif.com/");
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: salmon;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
   }
