@@ -1,25 +1,36 @@
 *{
     scroll-behavior: smooth;
 }
-:root{
-    background-image: url(/ps.gif)  ;
-    border: 5px solid #555;
+body{
+    background-image: url('ps.gif');
     background-size: cover;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    word-spacing: 4px;
+    font-size: 25px;
+}
+.container :hover{
+    color: hotpink;
 }
 .img{
     width: 380px;
     height: 500px;
-    margin-left: 750px;
+    margin-left: 680px;
 }
 .pic {
     width: 100px;
     height: 100px;
     border-radius: 50%; 
-    margin-right: 10px; 
+    margin-left: 150px;
 }
 .res {
-    width: 800px;
+    width: 200px;
     height: auto;
+    margin-left: 250px;
+    margin-top: 50px;
 }
 .con {
     width: 80%;
@@ -27,7 +38,8 @@
     text-align: center;
 }
 .nayn-sec{
-    align-items: center;
+    margin-left: 100px;
+    font-size: 20px;
 }
 .nayn-h1{
     color: salmon;
@@ -49,6 +61,14 @@
 }
 .nayn-h2{
     color: darkorange;
+}
+.navbar{
+    font-size: 20px;
+}
+.dropbtn{
+    font-size: 50px;
+    font-style: italic;
+    color: darksalmon;
 }
 .dropdown {
     float: left;
@@ -88,4 +108,12 @@
   }
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+  .contacts{
+    margin-left: 600px;
+    margin-top: 100px;
+    letter-spacing: 10px;
+  }
+  .footer{
+    text-align: center;
   }

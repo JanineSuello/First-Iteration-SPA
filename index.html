@@ -2,33 +2,116 @@
 <html>
 <head>
     <title>Simple jQuery SPA</title>
+
+<link rel="stylesheet" href="mystyle.css">
+<link rel="stylesheet" href="nayn.css">
+
 </head>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="./css/nayn.css">
-<link rel="stylesheet" href="./css/mystyle.css">
 
 <body>
 
     <nav>
-        <div class="w3-bar w3-light-grey">
-            <a href="#home" class="w3-bar-item w3-button">Home</a>
-            <a href="#pi" class="w3-bar-item w3-button">Personal Info</a>
-            <a href="#resume" class="w3-bar-item w3-button">Resume</a>
-            <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-            <a href="#contacts" class="w3-bar-item w3-button">Contacts</a>
+        <div class="container">
+            <a href="#" onclick="navigateTo('home')">Home</a>
+            <a href="#" onclick="navigateTo('pi')">Personal Information</a>
+            <a href="#" onclick="navigateTo('resume')">Resume</a>
+            <a href="#" onclick="navigateTo('projects')">Projects</a>
+            <a href="#" onclick="navigateTo('contacts')">Contacts</a>
         </div>
     </nav>
+
+    <main id="home" class="nayn-sec">
+
+        <h1 class="nayn-h1">Welcome to My Home Page</h1>
+    <div> 
+    <h2 class="nayn-h"> Hi! I am Janine Grace P. Suello </h2>
+    </div>
+    <div> 
+    <nav>
+        <img src="1683156321015.jpg" alt="jpg" class="img">
+    </nav>
+    <h2 style="color: black; font-style: italic; text-align: center;"> "Fall down seven times, stand up eight" </h2>
+</div>
+
+    </main>
+
+    <main id="pi" class="nayn-sec">
+
+        <h1 class="nayn-h1">Personal Info</h1>
+
+<h2 class="nayn-h2"> My Personal Info</h2>
+<ul class="nayn-ul"> 
+    <li> Janine Grace P. Suello</li>
+    <li> 2nd year BSIT student </li>
+    <li> Born and raised at Cagayan de Oro City</li>
+    <li> A Capricorn</li>
+</ul>
+
+<h2 class="nayn-h2"> My Favorites </h2>
+<ul class="nayn-ul"> 
+    <li> I love pink, especially if it's Hello Kitty </li>
+    <li> I love reading novels </li>
+    <li> I like listening to music </li>
+    <li> ILYSB is my favorite song </li>
+    <li> I like public speaking </li>
+</ul>
+
+<h2 class="nayn-h2"> My Dislikes </h2>
+<ul class="nayn-ul"> 
+    <li> I dislike dancing </li>
+    <li> I dislike dishonesty </li>
+    <li> I rarely studies </li>
+    <li> I dislike getting ill </li>
+</ul>
+
+    </main>
+
+    <main id="resume" class="res">
+        <div> 
+                <img src="JANINE GRACE P. SUELLO.jpg" alt="jpg">
+            </div>
+    </main>
+
+    <main id="projects" class="navbar">
+        <div>
+            <div class="dropdown">
+              <button class="dropbtn">PROJECTS
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="https://github.com/JanineSuello/it21c-packages">Packages</a>
+                <a href="https://github.com/JanineSuello/First-Iteration-SPA">Single Page Portfolio</a>
+                <a href="https://github.com/JanineSuello/POLY">Polymorphism</a>
+              </div>
+            </div>
+          </div>
+    </main>
+
+    <main id="contacts">
+        <section class="contacts">
+            <h1 style="color: mediumblue;">Janine Grace P. Suello</h1>
+            <ul>
+                <img src="IMG_20220803_065411_048.webp" alt="jpg" class="pic">
+                <li><strong>Facebook:</strong> <a href="https://web.facebook.com/profile.php?id=100084288098560">Janine Grace</a></li>
+                <li><strong>Gmail:</strong> <a href="mailto:20221637@nbsc.edu.ph">20221637@nbsc.edu.ph</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/JanineSuello">JanineSuello</a></li>
+                <li><strong>Contact Number:</strong> 0953 459 7561</li>
+            </ul>
+        </section>
+    </main>
 
         <div id="content"></div>
 
         <footer>
-            <div>
+            <div class="footer">
                 <p>&copy; 2023 Janine Grace P. Suello. All rights reserved.</p>
             </div>
         </footer>
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="./js/router.js"></script>
+        <script src="router.js"></script> 
     
 </body>
 </html>
+
+    
+    
