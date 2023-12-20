@@ -18,7 +18,7 @@ body{
 .img{
     width: 380px;
     height: 500px;
-    margin-left: 680px;
+    margin-left: 500px;
 }
 .pic {
     width: 100px;
@@ -27,9 +27,8 @@ body{
     margin-left: 150px;
 }
 .res {
-    width: 200px;
+    width: 50px;
     height: auto;
-    margin-left: 250px;
     margin-top: 50px;
 }
 .con {
